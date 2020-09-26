@@ -23,7 +23,8 @@ body{
     background-color: #0c2127;
 }
 .tablee{
-    
+    display: flex;
+    flex-direction:column ;
     margin-left: 200px;
 
 }
@@ -51,6 +52,11 @@ body{
      display:inline-block;
      margin-left: 100px;
      color: white;
+}
+.ssss{
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
 .nameRates{
     display: inline;
