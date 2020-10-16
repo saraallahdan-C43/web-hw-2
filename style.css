@@ -1,7 +1,4 @@
 
-.navvs{
-/* background-color: #13353F; */
-}
 ul{
     list-style: none;
     display: flex;
@@ -15,7 +12,7 @@ background-color: #20545F;
 border-radius: 12px;
 }
 .signin{
-font-size: 20px;
+font-size: 24px;
 color: #86c0cc;
 text-decoration: none;
 }
@@ -29,16 +26,16 @@ body{
 .tablee{
     display: flex;
     flex-direction:column ;
-    margin-left: 200px;
+    margin-left: 110px;
 
 }
 .hovers:hover{
    box-shadow: -7px -7px 7px rgba(255, 127, 80, 0.719);
-   width: 170px;
-   height: 220px;
+   width: 185px;
+   height: 235px;
 }
 .hovers{
-      margin-left: 15px;
+      margin-left: 25px;
       transition: all 0.2s ease-in-out;
       border-radius: 10%;
 }
@@ -53,11 +50,7 @@ body{
     margin-left: 200px;
     margin-top: 50px;
 }
-.sss{
-     display:inline-block;
-     margin-left: 100px;
-     color: white;
-}
+
 .ssss{
     display: flex;
     justify-content: space-around;
@@ -77,13 +70,61 @@ body{
     height: 30px;
    text-decoration: none;
    background-color: rgb(240, 128, 128);
+   margin-bottom: 10px;
+}
+.sss{
+     display:inline-block;
+     margin-left: 100px;
+     color: white;
 }
 .bcg2{
-border-radius: 7%;
-box-shadow: 7px 7px 7px rgba(168, 145, 145, 0.521);
-
+/* border-radius: 7%; */
+box-shadow: 7px 7px 7px rgba(47, 74, 114, 0.336);
+background-image:  url(./Web\ 1920\ –\ 1@2x.png);
+font-size: 40px;
+padding-top: 70px;
+padding-left: 20px;
+color: rgb(221, 220, 220);
+width: 100%;
+height:230px ;
+text-shadow:2px 2px 2px rgba(202, 202, 202, 0.26);
 }
+
 .acc:hover{
 width: 35px;
 height:45px;
+}
+.thenames{
+    color: rgb(221, 220, 220)  ;
+    text-shadow:2px 2px 2px rgba(202, 202, 202, 0.26);
+    margin-left: 55px;
+}
+.thenamess{
+    margin-left: 90px;
+}
+.thenamesss{
+    margin-left: 80px;
+}
+.last{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+   margin-left: 8px;
+}
+
+.stayco{
+    color: white;
+     background-color: #0C1D22;
+ width: 100%;
+    height: 170px;
+    padding-left: 40%;
+    padding-top: 5px;
+}
+.lastt{
+   padding-left:4% ;
+ display: flex;
+}
+.staycoo{
+    padding-left:2% ;
 }
