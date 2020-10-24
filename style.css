@@ -22,6 +22,7 @@ text-decoration: none;
 body{
     /* background-color: #0c2127; */
     background-color: #13353F;
+    overflow-x: hidden;
 }
 .tablee{
     display: flex;
@@ -68,6 +69,7 @@ body{
 .btn{
     width: 100px;
     height: 30px;
+    color: white;
    text-decoration: none;
    background-color: rgb(240, 128, 128);
    margin-bottom: 10px;
